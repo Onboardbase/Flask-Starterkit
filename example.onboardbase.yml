@@ -1,0 +1,5 @@
+# Create a .onboardbase.yml file and copy this basic config
+setup:
+  project: projectname
+  environment: environmentname
+  
