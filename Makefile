@@ -4,7 +4,6 @@ help:
 										   
 
 setup: ## Install the pip dependencies on the starterkit.
-	@python -m venv env
 	@pip install -r requirements.txt
 	@onboardbase login
 	@onboardbase setup
