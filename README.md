@@ -12,6 +12,8 @@ $ <name>/scripts/activate #Windows powershell
 $ <name>/bin/activate.bat #Linux terminal
 ```
 Then install dependencies using the `setup` command 
+# Note
+|WIndows users need to have `make` installed check https://community.chocolatey.org/packages/make to install 
 ```
 $ make setup      # Install the pip dependencies and setup onboardbase
 ```
