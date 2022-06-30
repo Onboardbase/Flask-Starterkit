@@ -1,6 +1,6 @@
 # Onboardbase-Flask-Starterkit 
-# Get Started
-Firstly you neeed to clone the project 
+### Get Started
+Firstly you need to clone the project 
 ```
 $ git clone <project>
 $ cd <project>
@@ -11,18 +11,19 @@ $ python -m venv <name>
 $ <name>/scripts/activate #Windows powershell
 $ <name>/bin/activate.bat #Linux terminal
 ```
-Then install dependencies using the `init` command 
-# Note
-|WIndows users need to have `make` installed check https://community.chocolatey.org/packages/make to install 
+Then install dependencies using the `make init` command 
+### Note
+| On WIndow you need to install `make` using chocolatey check https://community.chocolatey.org/packages/make |
 ```
-$ make init      # Install the pip dependencies and setup onboardbase
+$ make init      # Install the pip dependencies and login onboardbase
 ```
-run your server to see if it works fine and also pulls your secrets from onboardbase 
-Note: for you to use the make start command you need to have you onboardbase projet setup 
-
+After using the `make init` command to install all the dependencies, you will need to setup your onboardbase project 
 ```
-$ onboardbase setup # Setup your onboardbase project 
-$ make start      # Install the pip dependencies and setup onboardbase
+$ onboardbase setup    # Setup your onboardbase project 
 ```
+Start your local server 
+```
+$ make start      # Run your local server 
+``
 
 
