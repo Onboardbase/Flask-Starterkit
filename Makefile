@@ -1,11 +1,11 @@
 help: 
-	@echo Setup       Install the pip dependencies on the starterkit.  
+	@echo init       Install the pip dependencies on the starterkit.  
 	@echo Start       Run your local server.  
 										   
 
-setup: ## Install the pip dependencies on the starterkit.
+init: ## Install the pip dependencies on the starterkit.
 	@pip install -r requirements.txt
-	@onboardbase login && onboardbase setup
+	@onboardbase login 
 	
 
 start: ## Run your local server

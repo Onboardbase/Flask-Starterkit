@@ -18,8 +18,10 @@ Then install dependencies using the `setup` command
 $ make setup      # Install the pip dependencies and setup onboardbase
 ```
 run your server to see if it works fine and also pulls your secrets from onboardbase 
+Note: for you to use the make start command you need to have you onboardbase projet setup 
 
 ```
+$ onboardbase setup # Setup your onboardbase project 
 $ make start      # Install the pip dependencies and setup onboardbase
 ```
 
