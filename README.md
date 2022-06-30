@@ -11,11 +11,11 @@ $ python -m venv <name>
 $ <name>/scripts/activate #Windows powershell
 $ <name>/bin/activate.bat #Linux terminal
 ```
-Then install dependencies using the `setup` command 
+Then install dependencies using the `init` command 
 # Note
 |WIndows users need to have `make` installed check https://community.chocolatey.org/packages/make to install 
 ```
-$ make setup      # Install the pip dependencies and setup onboardbase
+$ make init      # Install the pip dependencies and setup onboardbase
 ```
 run your server to see if it works fine and also pulls your secrets from onboardbase 
 Note: for you to use the make start command you need to have you onboardbase projet setup 
