@@ -5,8 +5,8 @@ help:
 
 setup: ## Install the pip dependencies on the starterkit.
 	@pip install -r requirements.txt
-	@onboardbase login
-	@onboardbase setup
+	@onboardbase login && onboardbase setup
+	
 
 start: ## Run your local server
 	@onboardbase run -c "python manage.py"
