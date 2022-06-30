@@ -1,4 +1,4 @@
-from setup import *
+from manage import *
 
 @app.route("/")
 def hello_world():

@@ -1,5 +1,12 @@
-# Create a .onboardbase.yml file and copy this basic config
+# Using the Onboardbase CLI
 setup:
-  project: projectname
-  environment: environmentname
-  
+	project: projectname
+	environment: environmentname
+	
+
+# Using the Onboardbase Python SDK
+api_key: "****ANCAME3CFKJG******"
+passcode: "TEST_PASSCODE"
+setup:
+	project: "test-project"
+	environment: "development"
