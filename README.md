@@ -26,14 +26,10 @@ $ <name>/bin/activate.bat  # linux terminal
 Install dependencies using the `make init` command 
 
 ``` bash
-$ make init # install the pip dependencies and login to onboardbase
+$ make init # install the pip dependencies
 ```
 
-After using the `make init` command to install all the dependencies, you will need to setup your onboardbase project 
-
-``` bash
-$ onboardbase setup  # setup and sync your project
-```
+After using the `make init` command to install all the dependencies.
 
 Start your local server
 
